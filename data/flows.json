@@ -1,0 +1,36 @@
+[
+    {
+        "id": "97f43eccf23fc358",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1cfb8272f2570155",
+        "type": "InterSystemsIRISConfig",
+        "name": "@iris:1972/USER",
+        "host": "iris",
+        "hostFieldType": "str",
+        "port": "1972",
+        "portFieldType": "num",
+        "namespace": "USER",
+        "namespaceFieldType": "str",
+        "username": "",
+        "usernameFieldType": "str",
+        "password": "sys",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "f0803df4cbf93740",
+        "type": "intersystems iris",
+        "z": "97f43eccf23fc358",
+        "name": "DockerNetworkedIRIS",
+        "InterSystemsIRISConfig": "1cfb8272f2570155",
+        "x": 510,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    }
+]
